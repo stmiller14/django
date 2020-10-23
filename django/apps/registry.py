@@ -18,6 +18,7 @@ class Apps:
     """
 
     def __init__(self, installed_apps=()):
+        print("check commit ")
         # installed_apps is set to None when creating the master registry
         # because it cannot be populated at that point. Other registries must
         # provide a list of installed apps and are populated immediately.
